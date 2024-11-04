@@ -54,17 +54,17 @@ const Header: React.FC = () => {
             <li className="relative">
               <BsThreeDotsVertical
                 style={{ fontSize: "20px" }}
-                className="absolute top-3 left-4"
+                className="absolute top-3 left-4 cursor-pointer"
               />
               <input
                 style={{ paddingLeft: "45px" }}
                 type="text"
                 placeholder="Search anything"
-                className="bg-gray-100 py-2 w-[300px] rounded-lg"
+                className="bg-gray-100 py-2 w-[300px] rounded-lg outline-none"
               />
               <RiSearchLine
                 style={{ fontSize: "20px" }}
-                className="absolute top-3 right-5"
+                className="absolute top-3 right-5 cursor-pointer"
               />
             </li>
             <li className="flex items-center gap-2">
